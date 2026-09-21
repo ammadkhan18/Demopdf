@@ -1,0 +1,5 @@
+streamlit>=1.38.0
+groq>=0.11.0
+pypdf>=4.0.0
+fastembed>=0.3.0
+numpy>=1.24.0
