@@ -25,7 +25,7 @@ from pypdf import PdfReader
 # Configuration
 # --------------------------------------------------------------------------- #
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
-DEFAULT_LLM = "llama-3.3-70b-versatile"  # change in the sidebar if Groq retires it
+DEFAULT_LLM = "openai/gpt-oss-120b"  # change in the sidebar if Groq retires it
 HISTORY_TURNS = 3  # previous Q&A pairs sent to the model for follow-up questions
 
 SYSTEM_PROMPT = (
